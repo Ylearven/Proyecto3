@@ -1,0 +1,56 @@
+#boton {
+  width: 60px;
+  border: none;
+  color: white;
+  font-size: medium;
+  text-align: center;
+  padding: 5px;
+  background-color: black;
+  border-radius: 10px;
+}
+
+#btntexto {
+  width: 60px;
+  border: none;
+  color: black;
+  font-size: medium;
+  text-align: center;
+  padding: 5px;
+  background-color: white;
+}
+#btntexto:hover {
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+}
+
+btnImg {
+  width: 80px;
+  height: 40px;
+  border: none;
+}
+
+.btnsugerencia {
+  width: 80px;
+  border: none;
+  color: white;
+  font-size: large;
+  text-align: center;
+  padding: 5px;
+  background-color: black;
+  border-radius: 10px;
+}
+.btnsugerencia:hover {
+  color: black;
+  background-color: white;
+}
+
+@media screen and (max-width: 500px) {
+  #btntexto,
+  #boton {
+    font-size: small;
+  }
+  #boton {
+    height: 25px;
+  }
+}
