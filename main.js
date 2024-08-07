@@ -7,7 +7,6 @@ import {
 import { formulario } from './src/Componentes/form/form.js'
 
 const navegador = document.getElementById('nav')
-/* ${btnTexto('Inicio', 'inicio')}  */
 navegador.innerHTML = `
 ${btnImg('./assets/pinterest-logo.png', 'logo', 'logo')}
 ${btnTexto('Hoy', 'hoy')}

@@ -115,9 +115,6 @@ p {
     height: 30px;
   }
   #gallery {
-    /* display: grid;
-    grid-template-columns: 1fr 1fr;
-    flex-wrap: wrap; */
     column-count: 3;
   }
   #sugerencia > button {
@@ -156,9 +153,6 @@ p {
     left: 20%;
   }
   #gallery {
-    /*  display: grid;
-    grid-template-columns: 1fr;
-    flex-wrap: wrap; */
     column-count: 2;
   }
 }
